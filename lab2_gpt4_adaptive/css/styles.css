@@ -1191,3 +1191,18 @@ h13{
     row-gap: 2rem;
   }
 }
+
+
+/* TODO ------------------------------------------------------------------ */
+
+/*! Nick */
+
+@media (max-width: 426px){
+  .section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+
+/*! Nick */
