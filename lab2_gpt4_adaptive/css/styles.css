@@ -1132,13 +1132,23 @@ h13{
     flex-direction: column;
   }
   .yadurak{
-    padding-top: 20px;   
+    padding-top: 20px; 
+    padding-bottom: 1px;
+    margin-left: 180px;  
   }
   .ul.Footer_Footer_company{
     padding-left: 0;
   }
-
-  
+  .Footer_Footer_contacts{
+    margin-left: 180px;
+  }
+  .footer1{
+    display: flex;
+    flex-flow: column;
+  }
+  .Footer_Footer_png{
+    margin-left: 180px;
+  }
 }
 
 @media screen and (max-width: 765px) {
