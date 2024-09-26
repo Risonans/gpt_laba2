@@ -1319,6 +1319,12 @@ h13{
     flex-wrap: wrap;
   }
 
+  .yadurak {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
 
 
   /* K */
