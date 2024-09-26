@@ -925,8 +925,13 @@ h13{
     justify-content: center;
   }
 
+  .brands_section{
+    padding: 0px;
+  }
+
   .what_is_chatgpt_section {
     row-gap: 4rem;
+    margin: 0px;
   }
 
   .what_is_chatgpt_section .what_is_chatgpt_section__middle {
@@ -948,9 +953,16 @@ h13{
     row-gap: 1rem;
   }
 
+  .request_early_access_section{ 
+    min-width: 0px;
+    min-height: 0px;
+  }
+
   .sign_up_and_research{
     justify-content: center;
     max-width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 100px;
   }
 
   .sign_up_and_research .down_text {
@@ -962,7 +974,8 @@ h13{
   }
 
   .blog_articles_first {
-    margin-left: 10rem;
+    max-width: 310px;
+    margin-left: 5rem;
     margin-right: -2rem;
   }
 
@@ -972,6 +985,14 @@ h13{
 
   .con_3{
     margin-right: 4rem;
+  }
+
+  .enticing__question{
+    padding-top: 50px;
+  }
+
+  .footer1{
+    padding: 20px;
   }
 }
 
