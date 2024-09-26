@@ -1322,3 +1322,19 @@ h13{
 }
 
 /*! Nick */
+
+@media (max-width: 1440px){
+  body{
+    padding: 0;
+  }
+  .header{
+    max-width: 100%;
+  }
+  .section.section.header{
+    display: flex;
+
+  }
+  .header .header__burger_menu{
+    
+  }
+}
