@@ -947,6 +947,32 @@ h13{
   .future_here .future_here__left {
     row-gap: 1rem;
   }
+
+  .sign_up_and_research{
+    justify-content: center;
+    max-width: 100%;
+  }
+
+  .sign_up_and_research .down_text {
+    width: 750px;
+    font-size: 24px;
+    line-height: 35px;
+    padding-left: 46px;
+    padding-right: 34;
+  }
+
+  .blog_articles_first {
+    margin-left: 10rem;
+    margin-right: -2rem;
+  }
+
+  .blog_articles {
+    margin-right: -2rem;
+  }
+
+  .con_3{
+    margin-right: 4rem;
+  }
 }
 
 @media screen and (max-width: 766px) {
@@ -1065,7 +1091,6 @@ h13{
     flex-wrap: wrap;
   }
 
-<<<<<<< Updated upstream
   .blog_articles_first {
     width: 320px;
     background: #042c54;
@@ -1085,10 +1110,8 @@ h13{
     font-size: 19px;
   } */
 
-=======
 
   
->>>>>>> Stashed changes
 }
 
 /*! Nick */
