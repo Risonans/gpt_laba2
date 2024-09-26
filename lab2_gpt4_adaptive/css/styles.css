@@ -1183,9 +1183,10 @@ h13{
 
   .request_early_access_section .right_header {
     max-width: 426px;
-    font-size: 19px;
+    font-size: 24px;
     line-height: 1.2;
     color: #fff;
+    width: 330px;
   }
 
   .request_early_access_section .container__content {
@@ -1200,10 +1201,11 @@ h13{
   .request_early_access_section .request_it {
     font-size: 14px;
     color: #71e5ff;
+    width: 170px;
   }
 
   .request_early_access_section .right__cta {
-    width: auto;
+    width: 172px;
     color: #ff8a71;
     font-size: 14px;
     border-bottom: 1px;
@@ -1222,9 +1224,9 @@ h13{
     border: 1px solid #000000;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10.7236px;
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
   }
 
   .sign_up_and_research .upper_text {
