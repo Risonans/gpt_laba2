@@ -1091,7 +1091,7 @@ h13{
     line-height: 30px;
   }
   
-.sign_up_and_research .btn {
+  .sign_up_and_research .btn {
   margin: 30.41px;
   
   align-items: center;
@@ -1103,7 +1103,39 @@ h13{
   /* flex-direction: column; */
   margin-left: 36%;
   }
+  section.blog div.section {
+     flex-direction: column;
+     gap:0;
+  }
+  .blog_articles_title_1 {
+    margin-bottom: auto;
+  }.blog_articles_link_1 {
+    padding: 0;
+  }.blog_articles_first {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }.con_2{
+    margin-left: 14.9px;
+    padding-top: 3rem;
+    margin-bottom: auto;
+  }.blog_articles {
+    height: 390px;
+    margin-top: 0.5rem;
+  }.con_3 {
+    margin-left: 1.1rem;
+  }.Footer_Footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .yadurak{
+    padding-top: 20px;   
+  }
+  .ul.Footer_Footer_company{
+    padding-left: 0;
+  }
 
+  
 }
 
 @media screen and (max-width: 765px) {
