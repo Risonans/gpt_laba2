@@ -1170,7 +1170,8 @@ h13{
   }
 
   .VRwoman__img {
-    max-width: 390px;
+    max-width: 370px;
+    padding-left: 25px;
   }
 
   .request_early_access__right {
