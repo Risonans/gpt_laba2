@@ -783,9 +783,6 @@ h7 {
   font-size: 14px;
   line-height: 19px;
   margin-left: 141px;
-
-
-
   color: #FFFFFF;
 }
 .street_contacts {
@@ -794,7 +791,6 @@ h7 {
   height: 32px;
   font-size: 12px;
   opacity: 0.8;
-
 }
 .number {
   width: 116px;
@@ -818,10 +814,6 @@ h7 {
   background: #040C18;
   
 }
-/* .Footer_Footer_Footer {
-}
-.footer_03 {
-}  */
 h11{
 font-family: Manrope;
 font-size: 14px;
@@ -928,8 +920,13 @@ h13{
     justify-content: center;
   }
 
+  .brands_section{
+    padding: 100px;
+  }
+
   .what_is_chatgpt_section {
     row-gap: 4rem;
+    margin: 0px;
   }
 
   .what_is_chatgpt_section .what_is_chatgpt_section__middle {
@@ -950,9 +947,51 @@ h13{
   .future_here .future_here__left {
     row-gap: 1rem;
   }
+
+  .request_early_access_section{ 
+    min-width: 0px;
+    min-height: 0px;
+  }
+
+  .sign_up_and_research{
+    justify-content: center;
+    max-width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 100px;
+  }
+
+  .sign_up_and_research .down_text {
+    width: 750px;
+    font-size: 24px;
+    line-height: 35px;
+    padding-left: 46px;
+    padding-right: 34;
+  }
+
+  .blog_articles_first {
+    max-width: 310px;
+    margin-left: 5rem;
+    margin-right: -2rem;
+  }
+
+  .blog_articles {
+    margin-right: -2rem;
+  }
+
+  .con_3{
+    margin-right: 4rem;
+  }
+
+  .enticing__question{
+    padding-top: 50px;
+  }
+
+  .footer1{
+    padding: 100px;
+  }
 }
 
-@media screen and (max-width: 766px) {
+@media screen and (max-width: 768px) {
   p {
     font-size: 14px;
     line-height: 1.5;
@@ -971,7 +1010,13 @@ h13{
 
   .hero_section {
     width: 100%;
+    
   }
+  .hero_section__right  {
+    display:none;
+  }
+
+
 
   .brands_section {
     margin-top: -15px;
@@ -981,9 +1026,17 @@ h13{
   .what_is_chatgpt_section .what_is_chatgpt_section__top {
     flex-direction: column;
   }
+  .hero_section{
+
+  }
 
   .hero_section .hero_section__right img {
     width: 85%;
+    display: none;
+    
+  }
+  .hero_section .hero_section__left {
+    row-gap: 4rem;
   }
 
   .what_is_chatgpt_section .what_is_chatgpt_section__middle .middle__header {
@@ -1012,6 +1065,48 @@ h13{
     .container__content {
     line-height: 1.5;
   }
+  .VRwoman__img {
+    padding-left: 25%;
+    padding-top: 25%;
+  } 
+  .request_early_access_section .container__content {
+    padding-right: 20%;
+  }
+  .sign_up_and_research {
+    width: 680px;
+    margin-top: 100.47px;
+    margin-bottom: 140.47px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+
+  }
+  .sign_up_and_research .down_text {
+    padding-left: 2%;
+    padding-top: 13px;
+    font-size: 24px;
+    width: auto;
+    
+  }
+  .sign_up_and_research .upper_text {
+    padding-top: 23.21px;
+    padding-left: 18px;
+    line-height: 30px;
+  }
+  
+.sign_up_and_research .btn {
+  margin: 30.41px;
+  
+  align-items: center;
+  justify-content: center;
+  width: 189.14px;
+  height: 59.4px;
+  border-radius: 40px;
+  display: flex;
+  /* flex-direction: column; */
+  margin-left: 36%;
+  }
+
 }
 
 @media screen and (max-width: 765px) {
@@ -1219,6 +1314,8 @@ h13{
 
   /* K */
 
+
+  
 }
 
 /*! Nick */
