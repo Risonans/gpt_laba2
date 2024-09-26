@@ -1307,7 +1307,13 @@ h13{
 
   /* K */
 
-  .footer1 {
+  /* .footer1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  } */
+
+  .Footer_Footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
