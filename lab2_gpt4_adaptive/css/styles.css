@@ -925,8 +925,8 @@ h13{
   }
 
   .what_is_chatgpt_section {
-    row-gap: 4rem;
-    margin: 0px;
+    margin-left: 3rem;
+    row-gap: 3rem;
   }
 
   .what_is_chatgpt_section .what_is_chatgpt_section__middle {
@@ -939,6 +939,7 @@ h13{
   }
 
   .future_here {
+    margin-left: 4rem;
     column-gap: 0;
     flex-direction: column;
     row-gap: 4rem;
@@ -948,7 +949,8 @@ h13{
     row-gap: 1rem;
   }
 
-  .request_early_access_section{ 
+  .request_early_access_section{
+    margin-left: 4rem; 
     min-width: 0px;
     min-height: 0px;
   }
@@ -958,6 +960,7 @@ h13{
     max-width: 100%;
     margin-top: 3rem;
     margin-bottom: 100px;
+    margin-left: 4rem;
   }
 
   .sign_up_and_research .down_text {
@@ -988,6 +991,10 @@ h13{
 
   .footer1{
     padding: 100px;
+  }
+  
+  .footer2{
+    width: 1130px;
   }
 }
 
